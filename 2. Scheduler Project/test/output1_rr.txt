@@ -1,0 +1,266 @@
+Time: 1
+R1: 0, R2: 0, R3: 2 
+ready queue: [t5 t6 t7 ]
+waiting queue : [t3 t4 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t2
+CPU4: t1
+-------------------------------
+Time: 2
+R1: 0, R2: 0, R3: 2 
+ready queue: [t7 ]
+waiting queue : [t3 t4 t5 t6 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t2
+CPU4: t1
+-------------------------------
+Time: 3
+R1: 1, R2: 0, R3: 1 
+ready queue: [t2 t7 t1 ]
+waiting queue : [t5 t3 ]
+CPU1: t4
+CPU2: Idle
+CPU3: Idle
+CPU4: t6
+-------------------------------
+Time: 4
+R1: 0, R2: 0, R3: 0 
+ready queue: [t1 ]
+waiting queue : [t5 t3 t7 ]
+CPU1: t4
+CPU2: t2
+CPU3: Idle
+CPU4: t6
+-------------------------------
+Time: 5
+R1: 0, R2: 0, R3: 2 
+ready queue: [t4 t6 t1 ]
+waiting queue : [t5 t3 ]
+CPU1: Idle
+CPU2: t2
+CPU3: Idle
+CPU4: t7
+-------------------------------
+Starvation: t5, Replace: t7
+Time: 6
+R1: 0, R2: 0, R3: 2 
+ready queue: [t2 t1 ]
+waiting queue : [t3 t7 t6 ]
+CPU1: Idle
+CPU2: t4
+CPU3: Idle
+CPU4: t5
+-------------------------------
+Starvation: t3, Replace: t5
+Time: 7
+R1: 0, R2: 0, R3: 0 
+ready queue: [t1 ]
+waiting queue : [t7 t6 t5 ]
+CPU1: t2
+CPU2: t4
+CPU3: Idle
+CPU4: t3
+-------------------------------
+Time: 8
+R1: 0, R2: 0, R3: 2 
+ready queue: [t3 t1 ]
+waiting queue : [t7 t6 ]
+CPU1: t2
+CPU2: Idle
+CPU3: t5
+CPU4: Idle
+-------------------------------
+Time: 9
+R1: 1, R2: 0, R3: 1 
+ready queue: [t1 ]
+waiting queue : [t7 t3 ]
+CPU1: Idle
+CPU2: t2
+CPU3: t6
+CPU4: Idle
+-------------------------------
+Starvation: t7, Replace: t6
+Time: 10
+R1: 0, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t6 t3 t1 ]
+CPU1: Idle
+CPU2: t2
+CPU3: t7
+CPU4: Idle
+-------------------------------
+Time: 11
+R1: 2, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t6 t1 t7 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t3
+CPU4: Idle
+-------------------------------
+Time: 12
+R1: 2, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t6 t1 t7 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t3
+CPU4: Idle
+-------------------------------
+Time: 13
+R1: 2, R2: 1, R3: 3 
+ready queue: []
+waiting queue : [t6 t7 t1 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 14
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : [t6 t7 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: t1
+-------------------------------
+Starvation: t6, Replace: t1
+Time: 15
+R1: 2, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t7 t1 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: t6
+-------------------------------
+Time: 16
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : [t7 t6 ]
+CPU1: Idle
+CPU2: t1
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 17
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : [t7 t6 ]
+CPU1: Idle
+CPU2: t1
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Starvation: t7, Replace: t1
+Time: 18
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : [t1 t6 ]
+CPU1: Idle
+CPU2: t7
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 19
+R1: 2, R2: 1, R3: 3 
+ready queue: []
+waiting queue : [t1 t6 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 20
+R1: 2, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t1 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t6
+CPU4: Idle
+-------------------------------
+Time: 21
+R1: 2, R2: 0, R3: 2 
+ready queue: []
+waiting queue : [t1 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: t6
+CPU4: Idle
+-------------------------------
+Time: 22
+R1: 2, R2: 1, R3: 3 
+ready queue: []
+waiting queue : [t1 ]
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 23
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: t1
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 24
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: t1
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 25
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: Idle
+CPU2: t1
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 26
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: Idle
+CPU2: t1
+CPU3: Idle
+CPU4: Idle
+-------------------------------
+Time: 27
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: Idle
+CPU2: Idle
+CPU3: t1
+CPU4: Idle
+-------------------------------
+Time: 28
+R1: 1, R2: 0, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: Idle
+CPU2: Idle
+CPU3: t1
+CPU4: Idle
+-------------------------------
+Time: 29
+R1: 2, R2: 1, R3: 3 
+ready queue: []
+waiting queue : []
+CPU1: Idle
+CPU2: Idle
+CPU3: Idle
+CPU4: Idle
+-------------------------------
